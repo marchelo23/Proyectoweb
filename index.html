@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia de Idiomas</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+<header>
+    <h1>Academia de Idiomas</h1>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#precios">Precios</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="inicio">
+    <h2>Bienvenidos a nuestra Academia de Idiomas</h2>
+    <p>Ofrecemos cursos de alta calidad en diversos idiomas.</p>
+</section>
+
+<section id="galeria">
+    <h2>Galería de Imágenes</h2>
+    <div class="galeria">
+        <img src="imagen1.jpg" alt="Clase de idiomas">
+        <img src="imagen2.jpg" alt="Estudiantes aprendiendo">
+        <img src="imagen3.jpg" alt="Actividades en la academia">
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>Formulario de Contacto</h2>
+    <form id="formulario-contacto" onsubmit="return validarFormulario()">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<section id="acerca">
+    <h2>Acerca de Nosotros</h2>
+    <p>Somos un equipo apasionado por la enseñanza de idiomas.</p>
+</section>
+
+<section id="cursos">
+    <h2>Cursos Ofrecidos</h2>
+    <p>Ofrecemos cursos de inglés, francés, alemán y más.</p>
+</section>
+
+<section id="precios">
+    <h2>Precios de Cursos</h2>
+    <p>Consulta nuestros precios competitivos para cada curso.</p>
+</section>
+
+<section id="testimonios">
+    <h2>Testimonios de Alumnos</h2>
+    <p>"La mejor academia para aprender idiomas!" - Juan Pérez</p>
+</section>
+
+<footer>
+    <p>&copy; 2023 Academia de Idiomas. Todos los derechos reservados.</p>
+</footer>
+
+<script>
+    function validarFormulario() {
+        // Validaciones adicionales pueden ser implementadas aquí
+        return true;
+    }
+</script>
+</body>
+</html>
