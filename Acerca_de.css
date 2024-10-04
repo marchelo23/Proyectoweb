@@ -1,0 +1,17 @@
+header{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+}
+
+section.cuerpo{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+}
+
+footer{
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+}
