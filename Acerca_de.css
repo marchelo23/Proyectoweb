@@ -13,12 +13,16 @@ section.cuerpo{
     background-color: white;
 }
 
-article.informacion{
+article.Informacion{
     display: flex;
+    flex-wrap: wrap;
 }
 
 div.caja{
     border: 1px solid black;
+    width: 45%;
+    margin: 10px;
+    text-align: center;
 }
 
 footer{
