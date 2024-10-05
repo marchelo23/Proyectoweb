@@ -1,14 +1,14 @@
 section h1{
-    float: left;
     background-color: rgb(89, 89, 253);
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+    margin: 10px;
 }
 
 .curso{
-    display: flex;
-    width: 80%;
+    float: left;
+    width: 60%;
     border: 2px solid black;
     padding: 10px;
     margin: 10px;
@@ -19,4 +19,12 @@ section h1{
     float: left;
     width: 100px;
     margin: 10px;
+}
+
+.curso h3{
+    margin: 0;
+}
+
+.curso p{
+    margin-top: 0px;
 }
