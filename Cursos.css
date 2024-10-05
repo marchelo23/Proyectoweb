@@ -20,7 +20,8 @@ section h1{
 .curso img{
     height: auto;
     float: left;
-    width: 100px;
+    width: 15%;
+    max-width: 100px;
     margin: 10px;
 }
 
