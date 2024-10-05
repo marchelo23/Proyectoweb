@@ -8,24 +8,36 @@ section.cuerpo{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
     width: 100%;
-    background-color: rgb(109, 179, 245);
+    background-color: white;
 }
 
 article.Informacion{
     display: flex;
-    flex-wrap: wrap;
-    height: 100%;
+    flex-wrap: wrap;   
     width: 100%;
 }
 
+article.Informacion h1{
+    text-decoration: underline;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
 div.caja{
-    background-color: white;
+    background-color: rgb(255, 254, 239);
     border: 2px solid black;
     width: 40%;
     margin: 0 auto;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.caja img{
+    border: 1px solid black;
 }
 
 footer{
