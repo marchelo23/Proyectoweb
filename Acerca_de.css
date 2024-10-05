@@ -15,11 +15,11 @@ article.Informacion{
 }
 
 article.Informacion h1{
-    text-decoration: underline;
     font-size: 50px;
     width: 100%;
     text-align: center;
     margin: 10px 0;
+    color: rgb(63, 113, 252);
 }
 
 div.caja{
@@ -30,6 +30,7 @@ div.caja{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 5px;
 }
 
 div.caja img{
