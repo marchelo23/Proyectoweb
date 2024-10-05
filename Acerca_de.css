@@ -16,13 +16,15 @@ section.cuerpo{
 article.Informacion{
     display: flex;
     flex-wrap: wrap;
+    height: 100%;
 }
 
 div.caja{
     border: 1px solid black;
-    width: 45%;
-    margin: 10px;
+    width: 40%;
+    margin: 20px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 footer{
