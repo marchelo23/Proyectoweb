@@ -6,9 +6,19 @@ header{
 
 section.cuerpo{
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 500px;
     width: 100%;
     background-color: white;
+}
+
+article.informacion{
+    display: flex;
+}
+
+div.caja{
+    border: 1px solid black;
 }
 
 footer{
