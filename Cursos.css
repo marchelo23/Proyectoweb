@@ -25,13 +25,13 @@ section h1{
 
 .curso h3{
     margin: 0;
+    line-height: 1.5;
 }
 
 .curso p{
     margin-top: 0px;
+    line-height: 1.5;
 }
-
-
 
 .curso a{
     float: right;
@@ -41,4 +41,8 @@ section h1{
     padding: 10px;
     text-decoration: none;
     font-weight: bolder;
+}
+
+.curso a:hover{
+    background-color: rgb(255, 196, 1);
 }
